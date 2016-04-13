@@ -1,0 +1,32 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Diego Abreu
+url:                 http://getpoole.com
+paginate:            15
+baseurl:             ""
+highlighter:         pygments
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Diego Abreu
+  url:               https://twitter.com/somewild1
+  email:             diegocamp2006@hotmail.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/poole/poole
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
