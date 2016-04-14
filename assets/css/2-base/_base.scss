@@ -37,8 +37,7 @@ a {
   text-decoration: none;
 
   // `:focus` is linked to `:hover` for basic accessibility
-  &:hover,
-  &:focus {
+  &:hover {
     text-decoration: underline;
   }
 
