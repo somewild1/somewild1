@@ -9,6 +9,10 @@
   -moz-transition: margin-top 0.3s
   transition: margin-top 0.3s
 
+  @media screen and (max-width: 600px)
+    text-align: center
+    padding-right: 0
+
 .masthead-top-title
   margin-top: 0
   margin-bottom: 0
@@ -21,6 +25,9 @@
     font-weight: 400
     opacity: 1
     margin-left: 20px
+
+    &:first-child
+      margin-left: 0
 
 .masthead-bottom
   width: 100%
@@ -37,6 +44,9 @@
   -webkit-transition: height 0.3s, margin-top 0.3s
   -moz-transition: height 0.3s, margin-top 0.3s
   transition: height 0.3s, margin-top 0.3s
+
+  @media screen and (max-width: 354px)
+    height: 15em
 
   .masthead-bottom-scroll
     display: none
@@ -76,6 +86,9 @@
       margin-right: auto
       margin-left: auto
 
+      @media screen and (max-width: 354px)
+        bottom: 0px
+
   span
     text-align: center
     font-size: 2.0rem
@@ -109,3 +122,16 @@
 
     .masthead-bottom-scroll
       display: block
+
+      @media screen and (max-height: 570px)
+        position: absolute
+        bottom: 70px
+
+      @media screen and (max-width: 354px) and (max-height: 450px)
+        bottom: 55%
+
+    .title .title-text
+      bottom: 10px
+
+      @media screen and (max-width: 354px) and (max-height: 450px)
+        bottom: 15%
