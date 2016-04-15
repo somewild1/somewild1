@@ -1,8 +1,8 @@
 .pagination
   overflow: hidden
   // clearfix
-  margin: 0 -1.5rem 1rem
   text-align: center
+  margin: 3rem 0
 
 .pagination-item
   display: block
@@ -11,9 +11,15 @@
   border-width: 1px 0
   color: #fff
   background-color: #96714E
+  float: left
+  width: 50%
+  border-width: 1px
 
   &:first-child
-    margin-bottom: -1px
+    margin-bottom: 0
+
+  &:last-child
+    margin-left: -1px
 
 span.pagination-item
   background-color: lighten(#96714E, 35%)
@@ -21,19 +27,3 @@ span.pagination-item
 a.pagination-item:hover
   background-color: lighten(#96714E, 10%)
   text-decoration: none
-
-@media (min-width: 30em)
-
-  .pagination
-    margin: 3rem 0
-
-  .pagination-item
-    float: left
-    width: 50%
-    border-width: 1px
-
-    &:first-child
-      margin-bottom: 0
-
-    &:last-child
-      margin-left: -1px
