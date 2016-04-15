@@ -6,7 +6,7 @@ title:               Diego Abreu
 url:                 http://getpoole.com
 paginate:            10
 baseurl:             ""
-highlighter:         pygments
+highlighter:         rouge
 
 # Assets
 #

@@ -14,6 +14,21 @@ code {
   color: $code-color;
   background-color: #f9f9f9;
   border-radius: 3px;
+
+  table {
+    font-size: 100%;
+    border: none;
+    margin: 0;
+
+    td {
+      border: none;
+    }
+
+    td:first-child {
+      padding: 0.3em 0 0 0;
+    }
+  }
+
 }
 
 pre {
@@ -36,10 +51,15 @@ pre code {
   line-height: 1.4;
   background-color: #f9f9f9;
   border-radius: .25rem;
+  margin: 20px 0;
 
   pre {
     margin-bottom: 0;
     overflow-x: auto;
+  }
+
+  span {
+    white-space: nowrap;
   }
 
   .lineno {
